@@ -17,18 +17,15 @@ const seo = {
   },
 };
 
-//Home Page 
+//Home Page
 const greeting = {
   title: "ARUN MURUGESAN",
   logo_name: "Arun Murugesan",
   nickname: "An aspiring MERN Stack Developer",
-  subTitle:[
-    "Nothing will work unless you do"
-  ],
+  subTitle: ["Nothing will work unless you do"],
   resumeLink:
-    "https://drive.google.com/file/d/1PQhqqHhR0Y4gFx_vfYDR0lcIuYiU8xRC/view?usp=drive_link",
-    githubProfile: "https://github.com/arunmurugesan02",
-  
+    "https://drive.google.com/file/d/107k-PoquG0g1OHq1E2OZVdDh90BGRIUW/view?usp=drive_link",
+  githubProfile: "https://github.com/arunmurugesan02",
 };
 
 const socialMediaLinks = [
@@ -75,7 +72,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -163,38 +159,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },  
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -227,8 +191,7 @@ const degrees = {
       subtitle: "",
       logo_path: "bit_logo.7f0d54ee.png",
       duration: "2020 - 2024",
-      descriptions: [
-       " B.Tech  in Artificial Intelligence and Data Science"],
+      descriptions: [" B.Tech  in Artificial Intelligence and Data Science"],
       website_link: "https://www.bitsathy.ac.in/",
     },
     {
@@ -237,8 +200,7 @@ const degrees = {
       logo_path: "starlogo.png",
 
       duration: "2019 - 2020",
-      descriptions: [
-        "Higher Secondary School Certificate (HSC)" ],
+      descriptions: ["Higher Secondary School Certificate (HSC)"],
       website_link: "http://www.starschools.co.in/matric/",
     },
     {
@@ -246,8 +208,7 @@ const degrees = {
       subtitle: "",
       logo_path: "starlogo.png",
       duration: "2018 - 2019",
-      descriptions: [
-        "Secondary School Leaving Certificate (SSLC)" ],
+      descriptions: ["Secondary School Leaving Certificate (SSLC)"],
       website_link: "http://www.starschools.co.in/matric/",
     },
   ],
@@ -290,7 +251,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship",
   description:
-"An internship is a professional learning experience that offers meaningful, practical work related to a student's field of study or career interest. An internship gives a student the opportunity for career exploration and development, and to learn new skills.",
+    "An internship is a professional learning experience that offers meaningful, practical work related to a student's field of study or career interest. An internship gives a student the opportunity for career exploration and development, and to learn new skills.",
   header_image_path: "experience.svg",
   sections: [
     // {
@@ -341,8 +302,7 @@ const experience = {
           logo_path: "payoda_logo.jpeg",
           duration: "Mar 2022 - May 2022",
           location: "Coimbatore",
-          description:
-          "Developed a ML model to Mask the PII Data.",
+          description: "Developed a ML model to Mask the PII Data.",
           color: "#000000",
         },
       ],
@@ -427,9 +387,7 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-   
-  ],
+  data: [],
 };
 
 // Contact Page
@@ -445,7 +403,8 @@ const contactPageData = {
     subtitle:
       "13/46,Pallamaruthapatti,Pallamaruthapatti(po),Pugalur-TK,karur-639002",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/10%C2%B056'49.0%22N+77%C2%B059'32.6%22E/@10.9420814,77.990134,366m/data=!3m1!1e3!4m4!3m3!8m2!3d10.946951!4d77.992383?entry=ttu",
+    location_map_link:
+      "https://www.google.com/maps/place/10%C2%B056'49.0%22N+77%C2%B059'32.6%22E/@10.9420814,77.990134,366m/data=!3m1!1e3!4m4!3m3!8m2!3d10.946951!4d77.992383?entry=ttu",
   },
   phoneSection: {
     title: "",
