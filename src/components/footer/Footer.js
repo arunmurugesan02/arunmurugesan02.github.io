@@ -9,7 +9,9 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-        “Take the first step in faith. You don’t have to see the whole staircase, just take the first step.”<span role="img"></span> by {greeting.title}❤️
+          “Take the first step in faith. You don’t have to see the whole
+          staircase, just take the first step.”<span role="img"></span> by{" "}
+          {greeting.title}❤️
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>

@@ -93,3 +93,11 @@
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center; /* Center-align the text */
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+}
